@@ -13,6 +13,7 @@
 		7E168E65206E81A000059783 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E168E64206E81A000059783 /* Assets.xcassets */; };
 		7E168E68206E81A000059783 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E168E66206E81A000059783 /* LaunchScreen.storyboard */; };
 		7E168E6B206E81A000059783 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E168E6A206E81A000059783 /* main.m */; };
+		7E168E74206E826700059783 /* ZZPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E168E73206E826700059783 /* ZZPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		7E168E67206E81A000059783 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E168E69206E81A000059783 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E168E6A206E81A000059783 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7E168E72206E826700059783 /* ZZPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZPerson.h; sourceTree = "<group>"; };
+		7E168E73206E826700059783 /* ZZPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZPerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +78,8 @@
 		7E168E71206E81EC00059783 /* ZZPerson */ = {
 			isa = PBXGroup;
 			children = (
+				7E168E72206E826700059783 /* ZZPerson.h */,
+				7E168E73206E826700059783 /* ZZPerson.m */,
 			);
 			path = ZZPerson;
 			sourceTree = "<group>";
@@ -150,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E168E74206E826700059783 /* ZZPerson.m in Sources */,
 				7E168E60206E81A000059783 /* ViewController.m in Sources */,
 				7E168E6B206E81A000059783 /* main.m in Sources */,
 				7E168E5D206E81A000059783 /* AppDelegate.m in Sources */,
