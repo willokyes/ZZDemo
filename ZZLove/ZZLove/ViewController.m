@@ -24,6 +24,12 @@
     person.name = @"想了想";
     
     [person eat];
+    
+    //
+    ZZPerson *person1 = [ZZPerson new];
+    person1.name = @"想了想1";
+    
+    [person1 eat];
 }
 
 
