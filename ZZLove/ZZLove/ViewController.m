@@ -30,6 +30,11 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+    
+    ZZPerson *person = [ZZPerson new];
+    person.name = @"想了想";
+    
+    [person eat];
 }
 
 
